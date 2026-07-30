@@ -1,0 +1,76 @@
+.features {
+  padding-top: 106px;
+  padding-bottom: 109px;
+}
+
+.ft-subtitle {
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #dc780b;
+  margin-bottom: 7px;
+
+  opacity: 0.7;
+}
+
+.ft-title {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: capitalize;
+  color: #150c01;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+// ft-list
+
+.ft-list {
+  display: flex;
+  gap: 90px;
+}
+
+.ft-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-ft-box {
+  width: 88px;
+  height: 88px;
+  background-color: rgba(143, 166, 50, 0.1);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 33px;
+}
+
+.ft-item:nth-child(2) .icon-ft-box {
+  background-color: rgba(230, 77, 46, 0.1);
+}
+
+.ft-item:nth-child(3) .icon-ft-box {
+  background-color: rgba(220, 120, 11, 0.1);
+}
+
+.ft-item-title {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 0.96;
+  text-align: center;
+  color: #150c01;
+  margin-bottom: 15px;
+}
+
+.ft-item-descr {
+  line-height: 1.5;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.7;
+}

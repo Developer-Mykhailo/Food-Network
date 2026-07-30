@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 150px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+// buttons
+
+.rect-btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dc780b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 14px 30px;
+
+  width: 155px;
+
+  transition: color 0.25s ease-in-out;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.rect-btn-2 {
+  border: 1.5px solid rgba(220, 120, 11, 0.1);
+  border-radius: 5px;
+  width: 170px;
+  height: 60px;
+
+  font-weight: 500;
+  color: #dc780b;
+
+  transition: border-color 0.25s ease-in-out;
+
+  &:hover {
+    border-color: rgba(220, 120, 11, 0.3);
+  }
+}

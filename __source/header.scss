@@ -1,0 +1,36 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    display: block;
+    margin-right: 35px;
+  }
+}
+
+.hd-nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.hd-link {
+  color: #150c01;
+  opacity: 0.6;
+
+  transition: color 0.25s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &.current {
+    font-weight: 500;
+    color: #dc780b;
+  }
+}

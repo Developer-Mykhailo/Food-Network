@@ -1,0 +1,131 @@
+.testimonial {
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+
+.ts-subtitle {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #dc780b;
+  margin-bottom: 12px;
+
+  opacity: 0.7;
+}
+
+.ts-title {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 0.768;
+  color: #000;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.ts-descr {
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+  opacity: 0.7;
+  margin-bottom: 18px;
+
+  margin-bottom: 73px;
+}
+
+// ts-wrapper
+
+.ts-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 144px;
+}
+
+.icon-arrow {
+  opacity: 0.7;
+
+  transition: opacity 0.25s ease-in-out, scale 0.25s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    scale: 1.1;
+  }
+}
+
+.ts-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  .ts-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ts-item::before {
+    content: "";
+    position: absolute;
+    top: -36px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 112px;
+    height: 91px;
+    background-image: url(../image/ts-avatar-bg.svg);
+  }
+
+  .ts-avatar {
+    scale: 1.5;
+  }
+
+  .ts-text {
+    max-width: 506px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+
+    & + .star-list {
+      margin-bottom: 32px;
+    }
+  }
+
+  .ts-name {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-bottom: 6px;
+  }
+
+  .ts-type {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    opacity: 0.7;
+  }
+}
+
+.ts-avatar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  margin-bottom: 42px;
+}
+
+.ts-avatar {
+  position: relative;
+}
+
+.ts-list + .arrow-btn {
+  transform: scaleX(-1);
+}

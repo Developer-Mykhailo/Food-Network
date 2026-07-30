@@ -1,0 +1,108 @@
+.app {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    background: #fbf1e7;
+    opacity: 0.4;
+    width: 100%;
+    height: 518px;
+
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.app-content {
+  max-width: 555px;
+}
+
+.app-subtitle {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #dc780b;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+
+.app-title {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 1.3;
+  color: #150c01;
+  margin-bottom: 29px;
+}
+
+.app-descr {
+  line-height: 1.5;
+  color: #150c01;
+  opacity: 0.7;
+  margin-bottom: 39px;
+}
+
+.app-button-box {
+  display: flex;
+  gap: 30px;
+}
+
+.app-store-btn {
+  border-radius: 5px;
+  width: 163px;
+  height: 48px;
+  background-color: #150c01;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.google-btn {
+  border: 1.5px solid rgba(21, 12, 1, 0.1);
+  border-radius: 5px;
+  width: 179px;
+  height: 48px;
+
+  background-color: transparent;
+  color: #150c01;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+//
+
+.app-pictgure {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dc780b;
+
+    filter: blur(30px);
+    opacity: 0.2;
+    z-index: -1;
+  }
+}
