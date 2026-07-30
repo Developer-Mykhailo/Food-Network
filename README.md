@@ -1,6 +1,6 @@
 # Food Network
 
-A responsive landing page for a fictional food delivery service showcasing menu highlights, platform features, and a mobile app experience.
+A landing page for a fictional food delivery service showcasing menu highlights, platform features, and a mobile app experience.
 
 > **Project Screenshot**
 > ![Food-Network](./assets/screenshots/home.png)
