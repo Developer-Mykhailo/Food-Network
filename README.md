@@ -7,7 +7,7 @@ A landing page for a fictional food delivery service showcasing menu highlights,
 
 ## Live Demo
 
-**Demo:** https://food-network-bay.vercel.app/
+**Demo:** https://developer-mykhailo.github.io/Food-Network/
 
 ## Overview
 
